@@ -1,12 +1,4 @@
-
 import random
-
-
-
-
-
-
-
 
 resList = ['It is certain.',
 'It is decidedly so.',
@@ -32,4 +24,3 @@ resList = ['It is certain.',
 ind = random.randrange(0, 20 -1)
 
 print(resList[ind])
-
