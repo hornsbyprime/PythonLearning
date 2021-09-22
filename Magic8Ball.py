@@ -21,6 +21,6 @@ resList = ['It is certain.',
 'Outlook not so good.',
 'Very doubtful.']
 
-ind = random.randrange(0, 20 -1)
+ind = random.randrange(len(resList)-1)
 
 print(resList[ind])
